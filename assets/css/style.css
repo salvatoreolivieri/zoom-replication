@@ -1,0 +1,90 @@
+/*
+
+Table of content:
+
+1.HEADER
+  1.1 Logo
+  1.2 Nav Bar
+
+2.MAIN
+  2.1 Hero section
+  2.2 Sezione ...
+  2.3 Sezione ...
+  ...
+
+3.FOOTER
+
+*/
+
+
+
+
+/*
+1.HEADER
+*/
+
+header{
+  background-color: black;
+
+  justify-content: flex-end;
+
+  padding-right: 10px;
+}
+
+.speaker-view-button, .expand-button{
+  background-color: rgb(220,220,220, 0.3);
+  color: white;
+
+  border-radius: 5px;
+
+  padding: 2px 7px;
+  margin-right: 5px;
+}
+
+
+/*
+2.MAIN
+*/
+
+main{
+  background-color: black;
+
+  height: calc(100vh - 100px);
+  padding: 20px 50px;
+
+  overflow: scroll;
+}
+
+.zoom-profile-container{
+  position: relative;
+
+  width: 250px;
+  height: 150px;
+
+  border: 1px solid black;
+  margin-right: 5px;
+  margin-bottom: 5px;
+
+}
+
+.zoom-name-container{
+  position: absolute;
+  bottom: 0;
+
+  background-color: rgb(0, 0, 0, 0.5);
+
+  color: white;
+
+  padding: 4px 8px;
+}
+
+
+
+
+/*
+3.FOOTER
+*/
+
+footer{
+
+}

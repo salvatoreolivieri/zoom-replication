@@ -30,6 +30,10 @@ Table of content:
   border: 1px solid black;
 }
 
+.h50{
+  min-height: 50px;
+}
+
 .h100{
   min-height: 100px;
 }
@@ -93,10 +97,13 @@ section{
 /* 1.3 Flex */
 
 /* (già allineato al centro) */
-.flexbox{
+.flex{
   display: flex;
-  justify-content: center;
   align-items: center;
+}
+
+.wrap{
+  flex-wrap: wrap;
 }
 
 .flex-item{
@@ -140,7 +147,7 @@ p{
 /* 2.3 Piccole porzioni di testo */
 
 span{
-
+  font-size: 12px;
 }
 
 a{
@@ -157,6 +164,11 @@ strong{
 3.OGGETTI
 */
 
+img{
+  width: 250px;
+  height: 150px;
+}
+
 /* 3.1 Bottoni */
 
 .button{
@@ -166,3 +178,10 @@ strong{
 .button:hover{
 
 }
+
+/* 3.2 Icone */
+
+.fa-solid, .fa-regular{
+  font-size: 12px;
+}
+
