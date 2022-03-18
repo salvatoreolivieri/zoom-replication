@@ -1,0 +1,168 @@
+/*
+
+Table of content:
+
+0.DEBUG
+
+1.LAYOUT
+  1.1 Contenitori
+  1.2 Float
+  1.3 Flex
+
+2.TESTI
+  2.1 Titoli
+  2.2 Paragrafi
+  2.3 Piccole porzioni di testo
+  ...
+
+3.OGGETTI
+  3.1 Bottoni
+
+*/
+
+
+/*
+0.DEBUG
+*/
+
+.debug{
+  background-color: rgba(255, 0, 0, .2);
+  border: 1px solid black;
+}
+
+.h100{
+  min-height: 100px;
+}
+.h300{
+  min-height: 300px;
+}
+.h500{
+  min-height: 500px;
+}
+
+
+
+/*
+1.LAYOUT
+*/
+
+.w50{
+  width: 50%;
+}
+
+.w60{
+  width: 60%;
+}
+
+.w40{
+  width: 40%;
+}
+
+
+/* 1.1 Contenitori */
+
+section{
+  padding: 50px 0;
+}
+
+.container{
+  width: 80%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+/* 1.2 Float */
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+
+/* 1.3 Flex */
+
+/* (già allineato al centro) */
+.flexbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item{
+  
+}
+
+
+/*
+2.TESTI
+*/
+
+/* 2.1 Titoli */
+
+h1{
+
+}
+
+
+h2{
+  
+}
+
+
+h3{
+  
+}
+
+
+h4{
+  
+}
+
+
+/* 2.2 Paragrafi */
+
+p{
+
+}
+
+
+/* 2.3 Piccole porzioni di testo */
+
+span{
+
+}
+
+a{
+
+}
+
+strong{
+
+}
+
+
+
+/*
+3.OGGETTI
+*/
+
+/* 3.1 Bottoni */
+
+.button{
+
+}
+
+.button:hover{
+
+}
