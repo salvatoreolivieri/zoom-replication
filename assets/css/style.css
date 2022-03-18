@@ -3,16 +3,14 @@
 Table of content:
 
 1.HEADER
-  1.1 Logo
-  1.2 Nav Bar
+  1.1 Bottoni
 
 2.MAIN
-  2.1 Hero section
-  2.2 Sezione ...
-  2.3 Sezione ...
-  ...
+  2.1 Zoom Card
 
 3.FOOTER
+  3.1 left & center button
+  3.2 right button
 
 */
 
@@ -28,8 +26,12 @@ header{
 
   justify-content: flex-end;
 
+  height: 50px;
   padding-right: 10px;
 }
+
+
+/* 1.1 Bottoni  */
 
 .speaker-view-button, .expand-button{
   background-color: rgb(220,220,220, 0.3);
@@ -39,7 +41,11 @@ header{
 
   padding: 2px 7px;
   margin-right: 5px;
+
+  cursor: pointer;
 }
+
+
 
 
 /*
@@ -49,11 +55,14 @@ header{
 main{
   background-color: black;
 
-  height: calc(100vh - 100px);
+  height: calc(100vh - 130px);
   padding: 20px 50px;
 
   overflow: scroll;
 }
+
+
+/* 2.1 Zoom card */
 
 .zoom-profile-container{
   position: relative;
@@ -86,5 +95,44 @@ main{
 */
 
 footer{
+  background-color: #222222;
+  height: 80px;
 
+  padding-left: 15px;
+
+  justify-content: space-between;
+}
+
+footer .fa-solid{
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+footer .fa-chevron-up{
+  font-size: 10px;
+}
+
+
+/* 3.1 left & center button */
+
+
+.left-button, .center-button{
+  color: white;
+  text-align: center;
+}
+
+.footer-button-container{
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+
+/* right button */
+
+.right-button{
+  color: red;
+  background-color: #4A4A4A;
+
+  padding: 30px 15px;
+  cursor: pointer;
 }
